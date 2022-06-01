@@ -1,4 +1,4 @@
-import React from "react";
+import "./Navbar2.css";
 
 function Navbar2() {
   return (
@@ -9,7 +9,7 @@ function Navbar2() {
         </div>
         <div className="navbar2-item-text">
           <div>
-            <h3>Nationwide Delivery</h3>
+            <h4>Nationwide Delivery</h4>
           </div>
           <div>Speedy Delivery to any part of the Country</div>
         </div>
@@ -20,7 +20,7 @@ function Navbar2() {
         </div>
         <div className="navbar2-item-text">
           <div>
-            <h3>Factory Price</h3>
+            <h4>Factory Price</h4>
           </div>
           <div>lowest Retail price in the Market.</div>
         </div>
@@ -31,7 +31,7 @@ function Navbar2() {
         </div>
         <div className="navbar2-item-text">
           <div>
-            <h3>Privacy & Security</h3>
+            <h4>Privacy & Security</h4>
           </div>
           <div>Your Data is Safe and Secured with us</div>
         </div>

@@ -1,0 +1,28 @@
+.navbar3-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+.navbar3-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  cursor: pointer;
+}
+.navbar3-item img {
+  width: 20%;
+}
+.navbar3-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbar3-text h3,
+.navbar3-text p {
+  font-size: larger;
+  color: #444;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import "./Navbar3.css";
 
 function Navbar3() {
   return (
@@ -15,6 +16,13 @@ function Navbar3() {
         <div className="navbar3-text">
           <h3>LOCATE US</h3>
           <p>Find an Outlet Near you</p>
+        </div>
+      </div>
+      <div className="navbar3-item">
+        <img src="images/tracking.gif" alt="stylist" />
+        <div className="navbar3-text">
+          <h3>TRACK ORDER</h3>
+          <p>Check Order Status & Location</p>
         </div>
       </div>
     </div>

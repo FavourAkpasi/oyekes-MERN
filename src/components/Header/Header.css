@@ -1,0 +1,58 @@
+.header-container {
+  position: sticky;
+  top: 0;
+  height: 5rem;
+  background-color: #fff;
+  z-index: 2;
+}
+.header-wrapper {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.header-center {
+  flex: 4;
+}
+.header-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-right svg {
+  margin-left: 2rem;
+}
+.logo {
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: hotpink;
+  cursor: pointer;
+}
+.header-text {
+  font-family: "Righteous", cursive;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+  cursor: pointer;
+}
+.header-container .search-box {
+  display: flex;
+  align-items: center;
+  border: 0.15rem solid #f2f2f2;
+  padding: 0.2rem 1rem;
+  justify-content: space-between;
+  border-radius: 2rem;
+  background-color: #f2f2f2;
+}
+.search-box:focus-within {
+  border: 0.15rem solid lightgray;
+}

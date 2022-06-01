@@ -1,4 +1,4 @@
-import React from "react";
+import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
 import { Input } from "@mui/material";
 import Badge from "@mui/material/Badge";
