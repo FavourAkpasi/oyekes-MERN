@@ -17,7 +17,13 @@ img {
 .navbar3-item h3:hover,
 .socials-container svg:hover,
 .footer-container .link p:hover,
-.product-item-icon:hover {
+.product-item-icon:hover,
+.auth-option span:hover,
+.forgot-password:hover {
   color: hotpink;
   cursor: pointer;
+}
+
+Button {
+  padding: 2rem;
 }

@@ -2,18 +2,18 @@ import "./Products.css";
 import FavoriteBorderRoundedIcon from "@mui/icons-material/FavoriteBorderRounded";
 import { useNavigate } from "react-router-dom";
 
-function Products({ props, routeName }) {
+function Products({ products, description, routeName }) {
   const navigate = useNavigate();
 
   return (
     <div>
       <div className="main-desc">
-        <h2>{props[0][0].title}</h2>
-        <p>{props[0][0].desc}</p>
+        <h2>{description[0].title}</h2>
+        <p>{description[0].desc}</p>
       </div>
       <div className="filter-container"></div>
       <div className="products-container">
-        {props[1].map((item) => (
+        {products.map((item) => (
           <div
             className="product-card-container"
             key={item.id}
@@ -27,6 +27,7 @@ function Products({ props, routeName }) {
             </div>
             <div className="product-desc">
               <h5>{item.name}</h5>
+              <p>{item.desc.slice(0, 50)}...</p>
               <h6>{item.price}</h6>
             </div>
           </div>

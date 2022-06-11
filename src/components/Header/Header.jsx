@@ -5,15 +5,23 @@ import Badge from "@mui/material/Badge";
 import FaceIcon from "@mui/icons-material/Face";
 import LocalMallRoundedIcon from "@mui/icons-material/LocalMallRounded";
 import FavoriteRoundedIcon from "@mui/icons-material/FavoriteRounded";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
+  const navigate = useNavigate();
   return (
     <div className="header-container">
       <div className="header-wrapper">
         <div className="header-left">
-          <div className="logo">OYEKES</div>
-          <div className="header-text">HAIR</div>
-          <div className="header-text">FABRICS</div>
+          <div className="logo" onClick={() => navigate("/")}>
+            OYEKES
+          </div>
+          <div className="header-text" onClick={() => navigate("/hair")}>
+            HAIR
+          </div>
+          <div className="header-text" onClick={() => navigate("/fabrics")}>
+            FABRICS
+          </div>
         </div>
         <div className="header-center">
           <div className="search-box">

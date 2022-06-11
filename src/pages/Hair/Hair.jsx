@@ -14,7 +14,11 @@ function Hair() {
       <Header />
       <Navbar />
       <Navbar2 />
-      <Categories props={hairCategory} />
+      <Categories
+        categoryData={hairCategory}
+        allProductsRoute="hairproducts"
+        name="Hair"
+      />
       <Navbar3 />
       <Socials />
       <Footer />

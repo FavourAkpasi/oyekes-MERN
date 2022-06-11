@@ -7,6 +7,10 @@ import HairProducts from "./pages/HairProducts/HairProducts";
 import FabricsProducts from "./pages/FabricsProducts/FabricsProducts";
 import ProductDetails from "./pages/productDetails/ProductDetails";
 import "./style.css";
+import BoneStraight from "./pages/BoneStraight/BoneStraight";
+import ShoulderLength from "./pages/ShoulderLength/ShoulderLength";
+import Login from "./pages/Login/Login";
+import SignUp from "./pages/SignUp/SignUp";
 
 function App() {
   return (
@@ -17,7 +21,11 @@ function App() {
         <Route path="fabrics" element={<Fabrics />} />
         <Route path="hairproducts" element={<HairProducts />} />
         <Route path="fabricproducts" element={<FabricsProducts />} />
-        <Route path="productDetails/:productId" element={<ProductDetails />} />
+        <Route path="bonestraight" element={<BoneStraight />} />
+        <Route path="shoulderlength" element={<ShoulderLength />} />
+        <Route path="productDetails" element={<ProductDetails />} />
+        <Route path="Login" element={<Login />} />
+        <Route path="signup" element={<SignUp />} />
       </Routes>
     </BrowserRouter>
   );

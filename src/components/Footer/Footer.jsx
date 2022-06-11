@@ -1,11 +1,15 @@
 import { MailOutline, Phone, Room } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
 import "./Footer.css";
 
 function Footer() {
+  const navigate = useNavigate();
   return (
     <div className="footer-container">
       <div className="footer-left">
-        <div className="logo">OYEKES</div>
+        <div className="logo" onClick={() => navigate("/")}>
+          OYEKES
+        </div>
         <div className="header-left-text">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore

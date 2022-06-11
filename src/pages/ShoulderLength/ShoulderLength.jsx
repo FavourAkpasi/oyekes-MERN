@@ -8,13 +8,13 @@ import Footer from "../../components/Footer/Footer";
 import Products from "../../components/Products/Products";
 import { description, superMegaArray } from "../../Data";
 
-function FabricsProducts() {
-  const fabricProducts = superMegaArray.filter(
-    (item) => item.class === "fabrics"
+function ShoulderLength() {
+  const hairProducts = superMegaArray.filter(
+    (item) => item.class === "hair" && item.category === "Shoulder Length"
   );
 
-  const fabricDescription = description.filter(
-    (item) => item.title === "OYEKES Fabrics"
+  const hairDescription = description.filter(
+    (item) => item.title === "OYEKES Hair"
   );
 
   return (
@@ -23,8 +23,8 @@ function FabricsProducts() {
       <Navbar />
       <Navbar2 />
       <Products
-        products={fabricProducts}
-        description={fabricDescription}
+        products={hairProducts}
+        description={hairDescription}
         routeName="productDetails"
       />
       <Navbar3 />
@@ -34,4 +34,4 @@ function FabricsProducts() {
   );
 }
 
-export default FabricsProducts;
+export default ShoulderLength;

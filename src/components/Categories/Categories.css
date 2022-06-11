@@ -51,3 +51,16 @@
   border-left: 0.4rem solid purple;
   border-right: 0.4rem solid blue;
 }
+
+.not-sure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  background-color: #fceef5;
+}
+
+.not-sure h2 {
+  margin-right: 1rem;
+}

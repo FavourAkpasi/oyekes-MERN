@@ -18,6 +18,7 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 0.3rem;
+  font-weight: 200;
 }
 .navbar2-item-text h4 {
   color: #444;

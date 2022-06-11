@@ -6,15 +6,25 @@ import Navbar3 from "../../components/Navbar3/Navbar3";
 import Socials from "../../components/Socials/Socials";
 import Footer from "../../components/Footer/Footer";
 import Products from "../../components/Products/Products";
-import { hairProducts } from "../../Data";
+import { description, superMegaArray } from "../../Data";
 
 function HairProducts() {
+  const hairProducts = superMegaArray.filter((item) => item.class === "hair");
+
+  const hairDescription = description.filter(
+    (item) => item.title === "OYEKES Hair"
+  );
+
   return (
     <div>
       <Header />
       <Navbar />
       <Navbar2 />
-      <Products props={hairProducts} routeName="productDetails" />
+      <Products
+        products={hairProducts}
+        description={hairDescription}
+        routeName="productDetails"
+      />
       <Navbar3 />
       <Socials />
       <Footer />
