@@ -1,4 +1,5 @@
 import "./Hair.css";
+import React from "react";
 import Header from "../../components/Header/Header";
 import Navbar from "../../components/Navbar/Navbar";
 import Navbar2 from "../../components/Navbar2/Navbar2";
