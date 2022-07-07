@@ -19,7 +19,8 @@ img {
 .footer-container .link p:hover,
 .product-item-icon:hover,
 .auth-option span:hover,
-.forgot-password:hover {
+.forgot-password:hover,
+.terms:hover {
   color: hotpink;
   cursor: pointer;
 }

@@ -68,6 +68,13 @@ const SignUp = () => {
               label="Confirm Password"
             />
             <br />
+            <span className="terms-conditions">
+              By Clicking on the button below, you agree to{" "}
+              <span className="terms" onClick={() => navigate("/Terms")}>
+                Oyekes Terms & Conditions
+              </span>
+            </span>
+            <br />
             <Button
               sx={{
                 padding: "0.8rem",
