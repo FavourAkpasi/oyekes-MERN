@@ -8,8 +8,8 @@ export const hairCategory = [
   },
   {
     id: uuidv4(),
-    name: "Shoulder Length",
-    image: "images/hair-main1.jpg",
+    name: "Braided Hair",
+    image: "images/braid3.png",
   },
   {
     id: uuidv4(),
@@ -23,8 +23,8 @@ export const hairCategory = [
   },
   {
     id: uuidv4(),
-    name: "Short Hair",
-    image: "images/short.jpg",
+    name: "Factory & Hand-Made Wigs",
+    image: "images/hair-main1.jpg",
   },
 ];
 
