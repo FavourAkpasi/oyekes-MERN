@@ -8,9 +8,9 @@ import Footer from "../../components/Footer/Footer";
 import Products from "../../components/Products/Products";
 import { description, superMegaArray } from "../../Data";
 
-function ShoulderLength() {
+function StraightHair() {
   const hairProducts = superMegaArray.filter(
-    (item) => item.class === "hair" && item.category === "Shoulder Length"
+    (item) => item.class === "hair" && item.category === "Straight Hair"
   );
 
   const hairDescription = description.filter(
@@ -34,4 +34,4 @@ function ShoulderLength() {
   );
 }
 
-export default ShoulderLength;
+export default StraightHair;
